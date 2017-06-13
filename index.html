@@ -16,30 +16,30 @@
         <div class="row">
           <div class="col-md-6">
             <h3>Register a new account:</h3>
-            <form class="register" method="submit">
+            <form id="registration" method="submit">
               <div class="form-group">
                 <label for="customer-name">Name</label>
-                <input type="text" name="register" value="" id="customer-name">
+                <input type="text" name="register" id="customer-name">
               </div>
               <div class="form-group">
                 <label for="initial-deposit">Initial Deposit</label>
-                <input type="text" name="register" value="" id="initial-deposit">
+                <input type="text" name="register" id="initial-deposit">
               </div>
-              <button type="button" name="register">Register a New Account</button>
+              <button type="submit" name="register" id="register">Register a New Account</button>
             </form>
           </div>
           <div class="col-md-6">
             <h3>Deposit or withdraw funds:</h3>
-            <form class="transaction" method="submit">
+            <form id="transaction" method="submit">
               <div class="form-group">
                 <label for="deposit-amount">Deposit Amount</label>
-                <input type="text" name="transaction" value="" id="deposit-amount">
+                <input type="text" name="transaction" id="deposit-amount">
               </div>
               <div class="form-group">
                 <label for="withdrawal-amount">Withdrawal Amount</label>
-                <input type="text" name="transaction" value="" id="withdrawal-amount">
+                <input type="text" name="transaction" id="withdrawal-amount">
               </div>
-              <button type="button" name="transaction">Submit Amount</button>
+              <button type="submit" name="transaction" id="transaction">Submit Amount</button>
 
               </form>
             </form>
